@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Navbar</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <ul class="nav justify-content-end">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Logo.png" alt="" width="100" height="100">
+            </a>
+        </div>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Pages</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+        </li>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
+
+
+
+    <div class="row">
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <img src="tahu_isi.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tahu Isi </h5>
+                    <p class="card-text">Tahu isi merupakan salah satu varian gorengan yang cukup populer di
+                        Indonesia.
+                        Tahu isi ini berupa
+                        tahu yang diisi dengan mihun dan sayuran lantas dibalut dengan menggunakan tepung terigu
+                        lalu
+                        digoreng. Rasanya gurih dan asin sehingga begitu nikmat saat disantap bersama cabai rawit.
+                    </p>
+                    <button type="button" class="btn btn-primary" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Order now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="tahu_isi.png" class="card-img-top" alt="...">
+                        Tersedia paket Tahu isi 1 keranjang seharga Rp.20.000
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Check out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <img src="bakwan_goreng.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Ote-Ote</h5>
+                    <p class="card-text">Ote-ote sendiri merupakan gorengan khas Porong, Jawa Timur. Ote-ote adalah
+                        camilan sejenis bakwan
+                        yang terbuat dari campuran tepung terigu dan sayuran seperti kubis, wortel dan tauge. Ada
+                        pula
+                        yang
+                        memasukkan potongan ayam, udang, hingga rumput laut sebagai isian untuk menambah
+                        kelezatannya.
+                    </p>
+                    <button type="button" class="btn btn-primary" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Order now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="bakwan_goreng.jpg" class="card-img-top" alt="...">
+                        Tersedia paket Ote-ote 1 keranjang seharga Rp.20.000
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Check out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <img src="pisang_goreng.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pisang Goreng</h5>
+                    <p class="card-text">Pisang goreng adalah makanan ringan yang banyak ditemukan di Indonesia,
+                        Malaysia dan Singapura.
+                        Makanan ini terbuat dari buah pisang, sesudah di kupas kulitnya dipotong-potong sesuai
+                        keinginan
+                        kemudian di lumuri bersama adonan kental terbuat dari campuran tepung, sedikit garam dan
+                        gula,
+                        selanjutnya digoreng dalam minyak panas.</p>
+                    <button type="button" class="btn btn-primary" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Order now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="pisang_goreng.jpg" class="card-img-top" alt="...">
+                        Tersedia paket Pisang goreng 1 keranjang seharga Rp.20.000
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Check out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 20rem;">
+                <img src="molen.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pisang Molen</h5>
+                    <p class="card-text">Pisang molen adalah suatu hidangan ringan berbahan baku pisang yang
+                        dilapisi
+                        gulungan lembar-lembar adonan pastri dan kemudian digoreng dengan minyak. Hidangan ini
+                        merupakan
+                        variasi dalam pengolahan dari pisang goreng..</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal4">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Order now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="molen.jpg" class="card-img-top" alt="...">
+                    Tersedia paket Pisang molen 1 keranjang seharga Rp.20.000
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Check out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+</script>
+
+</html>
